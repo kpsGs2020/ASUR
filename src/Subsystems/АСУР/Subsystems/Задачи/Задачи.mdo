@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62cec53-a1e9-4ec0-ae6a-7d0335676dec">
+  <name>Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.asur_ПрефиксыОбъектов</content>
+  <content>Enum.asur_КатегорииПроектов</content>
+  <content>Catalog.asur_КонфигурацииОрганизации</content>
+  <content>Catalog.asur_ОтделыПодразделений</content>
+  <content>Catalog.asur_СписокЗадач</content>
+  <content>Catalog.asur_Год</content>
+  <content>Catalog.asur_КатегорииЗадач</content>
+  <parentSubsystem>Subsystem.АСУР</parentSubsystem>
+</mdclass:Subsystem>

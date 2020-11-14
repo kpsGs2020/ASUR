@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419850cc-6a9d-4ab1-ad58-99e5c19d44fa">
+  <producedTypes>
+    <objectType typeId="38234cda-5134-488f-9dae-36b85f8eba64" valueTypeId="28e7f3ed-eedd-4dfa-904f-084302be38c9"/>
+    <refType typeId="34cbdc08-c57e-4096-aeee-af1ae4b0f361" valueTypeId="a1b19584-dd5c-41d6-bbe2-11dd70c71254"/>
+    <selectionType typeId="540a629a-a355-4a59-b8cd-0b8fd0c566ce" valueTypeId="e7506de4-3b62-4232-b242-2d6a08ac0fb9"/>
+    <listType typeId="89f3c904-8784-43f7-b27f-111568f6a307" valueTypeId="5545d2bc-7efa-4435-856d-4606c9dd72cd"/>
+    <managerType typeId="9ee857e4-e345-435c-8b82-db85f14e5d57" valueTypeId="30765c99-fa54-4e60-b013-393611387d21"/>
+  </producedTypes>
+  <name>asur_КонфигурацииОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_КонфигурацииОрганизации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.asur_КонфигурацииОрганизации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="48e19741-62ab-42db-af65-361dbeffab46">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="111a816a-6646-46d2-ab40-194d16092ef9">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="572c1453-da70-444a-9e73-41b6c893a461">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

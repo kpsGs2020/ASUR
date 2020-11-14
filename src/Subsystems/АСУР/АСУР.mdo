@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43e791b5-51a5-4de1-8af1-167959c4168d">
+  <name>АСУР</name>
+  <synonym>
+    <key>ru</key>
+    <value>АСУР</value>
+  </synonym>
+  <comment>Автоматизация ресурсов</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.asur_Подсистема</picture>
+  </picture>
+  <content>Catalog.asur_СписокЗадач</content>
+  <subsystems>Задачи</subsystems>
+</mdclass:Subsystem>

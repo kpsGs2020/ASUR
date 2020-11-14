@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df488857-0c91-44ca-ae6a-2dd628fee095">
+  <producedTypes>
+    <objectType typeId="63596deb-12d9-42a6-abe6-967701695a30" valueTypeId="f93e3e13-e1a6-42ac-9229-439eb876ea9b"/>
+    <refType typeId="d5742757-bbda-47b1-8db9-7e0139fa1951" valueTypeId="4c955c54-d42a-4598-9529-e64b3256fa13"/>
+    <selectionType typeId="a9f514a0-851a-42b2-867e-5899276adadf" valueTypeId="4a24750c-c6e1-4c65-9c4c-d09de037642c"/>
+    <listType typeId="ea8fbbcd-cc22-4274-89fa-ed960bbe6216" valueTypeId="ba5af0fe-f52a-4500-8d46-0eafbe438492"/>
+    <managerType typeId="0f2536d6-f27c-438c-b236-0073c233c6d2" valueTypeId="b32fdf9d-c944-4546-b649-0cda266e8f6d"/>
+  </producedTypes>
+  <name>asur_ОтделыПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отделы подразделений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_ОтделыПодразделений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.asur_ОтделыПодразделений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.СтруктураПредприятия</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

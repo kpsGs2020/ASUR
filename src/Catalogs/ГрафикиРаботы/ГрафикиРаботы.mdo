@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="13f3b2d4-cca3-4105-b9eb-ec10a021fe4b" extendedConfigurationObject="a1011305-9645-464a-b385-cc09cbfffbe3">
+  <producedTypes>
+    <objectType typeId="5c293421-98c4-4b9d-9b7f-d11f802f77b5" valueTypeId="f080258e-2715-42b9-b675-69a46a89308f"/>
+    <refType typeId="27ad081e-8763-4bb6-9cb1-29593f6c4cca" valueTypeId="d5571594-ab36-4e92-b587-a752115360ce"/>
+    <selectionType typeId="a2010b5c-70f6-473f-8375-4600caa68bf2" valueTypeId="dc580359-bc92-421f-9947-3f981e8f1047"/>
+    <listType typeId="a4622d6f-9b9d-4d00-9901-ac9b9f252848" valueTypeId="e8f5ebb9-ca66-43eb-8043-56ba776e6126"/>
+    <managerType typeId="6a05b56d-9150-4b5b-9542-b22e2dd32a07" valueTypeId="8f351649-7ef8-4a32-97d4-5cfb72db321d"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

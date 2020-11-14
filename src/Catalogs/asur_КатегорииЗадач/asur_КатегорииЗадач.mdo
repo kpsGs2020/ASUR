@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21e72cbf-87b1-44b7-b0dd-6c4b8aa39266">
+  <producedTypes>
+    <objectType typeId="c47c8441-9767-46b1-94d1-45019873b8c8" valueTypeId="d5d2737e-eb81-418e-a89d-5131b414455c"/>
+    <refType typeId="a78d4afc-0df2-4b0d-b1cb-69b86837397e" valueTypeId="4f725b77-8efe-4886-bed3-79957882306a"/>
+    <selectionType typeId="4d8c2124-0693-436c-8811-8f13e67bd851" valueTypeId="5d8fedec-ecf8-4999-a647-b5e645df1841"/>
+    <listType typeId="d8d1c322-dfcd-4bab-8737-030864e29de1" valueTypeId="6ae21b1a-54ee-4803-94c6-629a357b54c3"/>
+    <managerType typeId="345bdbd3-bba5-4f38-8405-099f1d4d9734" valueTypeId="b482d17d-81e7-4a4b-9718-6d86e3b7f4fd"/>
+  </producedTypes>
+  <name>asur_КатегорииЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_КатегорииЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.asur_КатегорииЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория задачи</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.asur_КатегорииЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3d624ee6-0ae8-4604-a05b-3b4c1705af3b">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_СписокЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed62b336-99ce-489b-87cb-e660ded6cab4">
+    <name>ЗапросСбораДанныхДляКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос сбора данных для кода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f7208dfc-bb20-4be5-9a1d-af6f13f46dc2">
+    <producedTypes>
+      <objectType typeId="f0f24432-b2e7-47cb-8371-f22ebb948c88" valueTypeId="8a0c90f5-5f6b-4e32-808f-d474dde73981"/>
+      <rowType typeId="c6c1ab79-cf50-4faa-937a-440b7207c60f" valueTypeId="c6817d55-418f-4f47-ad2a-172137c61c71"/>
+    </producedTypes>
+    <name>СтруктураХранениеФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура хранение файлов</value>
+    </synonym>
+    <attributes uuid="f939352b-bde2-478f-8a92-afb23eaac71f">
+      <name>ЕстьПрефикс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть префикс</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d9b9d589-8a9b-4f76-a565-bfbbf529b3a9">
+      <name>ЗначениеИзПрефикса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение из префикса</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd67abcb-28bc-423f-96a1-580a110b2a2b">
+      <name>ИмяРеквизитаОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b175bc3-91ee-4a5f-9ed9-d5244bb13cd5">
+      <name>ПутьКДанным</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к данным</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c32e3ce4-ac8d-4396-90e8-ff89807e527c">
+      <name>СимволРазделения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Символ разделения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f51edc3f-df0a-425d-9def-32b46848f0ff">
+      <name>СинонимРеквизитаОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синоним реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e7b4d45b-24bc-42bd-b15b-01923d0c4c0d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

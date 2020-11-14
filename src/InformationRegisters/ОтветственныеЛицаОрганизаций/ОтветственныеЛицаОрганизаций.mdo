@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6cc787c-2333-4959-93ef-2101dc37ee1e" extendedConfigurationObject="83329a0e-dc60-45b5-af6c-7e8cba2765f9">
+  <producedTypes>
+    <selectionType typeId="d014ab4b-272e-422a-8a02-63be2b48e7a1" valueTypeId="9b6f8656-1eea-4b64-85a5-17a3ed7cb53e"/>
+    <listType typeId="97ebfa71-ee5a-4715-82bb-b498034f8a75" valueTypeId="fc92dea4-f84f-46cc-87ce-8cb751441086"/>
+    <managerType typeId="0a289837-33e8-4c54-8adc-266d8f56e4b7" valueTypeId="fc514ecb-6f64-47a7-82fe-9d85b665f907"/>
+    <recordSetType typeId="75a31d05-2d43-4f60-aef3-1f1b730592e0" valueTypeId="dddba11c-ec73-4e16-88d9-cf342558852e"/>
+    <recordKeyType typeId="44a2de2f-d57b-4163-b424-bcd9f1a1a317" valueTypeId="0f5b5c90-89be-48d2-96bd-e43a1d71690d"/>
+    <recordType typeId="c6308428-8862-46ae-b1c6-dd0f7d059a1c" valueTypeId="1489306b-5849-4a85-ab97-8c32242304be"/>
+    <recordManagerType typeId="d5fa2eb8-9858-4a45-95bc-15562a0362a0" valueTypeId="fd66ddf9-3c1c-4d78-bc53-3a761b99c7a6"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="db42fd07-e2a5-4273-aeb6-8c5b42e1d66d" extendedConfigurationObject="ed5b5998-828b-49de-bd3a-40af353eb8de">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </resources>
+  <dimensions uuid="3b69f6ca-3281-4bcc-9599-4f2066661d68" extendedConfigurationObject="a4891d26-b8ba-47ab-befd-2c340e3b8f30">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

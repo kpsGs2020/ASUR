@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce18677e-2a1d-45db-b9af-4deb53206d6a">
+  <producedTypes>
+    <objectType typeId="5d9c2988-3a26-4d05-97be-5f47896529c8" valueTypeId="2ada152c-b333-424d-a5d7-e3de7a5f4408"/>
+    <refType typeId="4508825c-11c1-4006-af0a-530a59beafe7" valueTypeId="43761fdc-c1f6-43b9-8e84-79f5bdf2bbb9"/>
+    <selectionType typeId="785dd613-3b00-4306-8f9b-55469655ca51" valueTypeId="593ee017-3a47-4030-a46b-d702e6f81547"/>
+    <listType typeId="9a600258-5cde-408a-b734-48e05f67a394" valueTypeId="8924b6d3-2691-44ba-9709-c7746a8cc49c"/>
+    <managerType typeId="70843949-8b47-47de-9857-1173a90f63fb" valueTypeId="b63b0d6e-374d-44dd-8b57-61d2b13d0177"/>
+  </producedTypes>
+  <name>asur_Год</name>
+  <synonym>
+    <key>ru</key>
+    <value>Год</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_Год.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

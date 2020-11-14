@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b63bc62-81f2-4100-a83b-cebeeb206635">
+  <producedTypes>
+    <refType typeId="a3751b6e-d775-4beb-b7f5-b0e8a4ebebd8" valueTypeId="aa85edb4-7502-4a0a-9ef8-35910e51a3f2"/>
+    <listType typeId="d37eb2dd-1cc8-459e-8e65-66bd322fedf7" valueTypeId="0b38e96c-bb35-4b14-9543-32cefa3f23d4"/>
+    <managerType typeId="9d69a735-70fb-4391-9782-ef50c6d4583b" valueTypeId="22dd9780-444a-4120-a802-65396ffa1680"/>
+  </producedTypes>
+  <name>asur_КатегорииПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории проектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="76efdef8-0cc6-4d8e-969b-e918ee523531">
+    <name>Труд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Труд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33ab0fed-21bb-4e97-bd5b-edfd406784d7">
+    <name>Личное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

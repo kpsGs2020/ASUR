@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65e0a7df-cba2-4e06-83a7-173703daeb80">
+  <name>ASUR</name>
+  <synonym>
+    <key>ru</key>
+    <value>ASUR</value>
+  </synonym>
+  <comment>Автоматизированная система управления ресурсами</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3a50b485-0902-4479-90e4-437e7adf705f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b134d74b-fa34-4475-8853-a883c1197383"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d7552266-4502-4a2b-85ad-e42ce2f46864"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7ffd9c47-688a-4698-9e27-6eddb5a4b611"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ec208df9-5f5f-49b0-9fdd-cfa0ffb9ac4c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="07fda0b0-7212-4cb4-bd1f-23ccef21957d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="70ab5727-e320-4840-83e3-d86a5bf791e9"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>asur_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.asur_Администратор</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="a9f55566-c6fa-4d50-833d-71a089dda7bf">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.АСУР</subsystems>
+  <commonPictures>CommonPicture.asur_Подсистема</commonPictures>
+  <roles>Role.asur_Администратор</roles>
+  <commonForms>CommonForm.asur_Форма</commonForms>
+  <catalogs>Catalog.asur_КонфигурацииОрганизации</catalogs>
+  <catalogs>Catalog.asur_ОтделыПодразделений</catalogs>
+  <catalogs>Catalog.asur_СписокЗадач</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.asur_Год</catalogs>
+  <catalogs>Catalog.asur_КатегорииЗадач</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <enums>Enum.asur_КатегорииПроектов</enums>
+  <informationRegisters>InformationRegister.СведенияОПользователяхДокументооборот</informationRegisters>
+  <informationRegisters>InformationRegister.ОтветственныеЛицаОрганизаций</informationRegisters>
+  <informationRegisters>InformationRegister.asur_ПрефиксыОбъектов</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86d81471-ed23-43fe-a98f-c7f0aebe68f8">
+  <producedTypes>
+    <selectionType typeId="71d306a0-c139-4108-a3d0-e06985326b43" valueTypeId="d5da5509-7846-42bc-a6d8-94a994e4d033"/>
+    <listType typeId="8e498d8c-9c90-40bf-8c2b-c5a805de639c" valueTypeId="0e375cab-5cd5-405b-acd3-518515c7c3d6"/>
+    <managerType typeId="eb7b3781-740a-4987-a798-b057f07f5d2b" valueTypeId="b7484304-1384-4103-b347-5d636b942582"/>
+    <recordSetType typeId="faebb618-0efa-47b1-91e5-2d8e66fd1ad3" valueTypeId="b00cb1c0-7578-4c3e-9e8e-c8a60dbf1ef0"/>
+    <recordKeyType typeId="028a2384-9bea-473f-bc41-73ec0b40306a" valueTypeId="a203e3a0-d3d0-4de5-bc30-c36d7a866ac6"/>
+    <recordType typeId="9ad2052e-fbba-475b-a83c-025d38b31786" valueTypeId="106754d4-8148-41df-82e4-03e65940c7fd"/>
+    <recordManagerType typeId="2aeb1c9f-ef95-401a-9647-ae9cc8958484" valueTypeId="33a408fc-3ff4-4b32-aa71-8fd4bbfcb9b7"/>
+  </producedTypes>
+  <name>asur_ПрефиксыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксы объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e28c18df-b3ba-41c6-9cfe-50c3770e1575">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c875d216-5f37-4094-a830-0bf096e0d7f5">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_КонфигурацииОрганизации</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.asur_ОтделыПодразделений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
