@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11c2cef2-2722-44fd-8960-b942f220d0c2">
+  <producedTypes>
+    <selectionType typeId="4cdb94ba-12eb-44f0-80c5-8ab295eaa1ae" valueTypeId="0d73c4d0-97bd-4b71-b903-8cd2aca9f556"/>
+    <listType typeId="0e01a246-b546-4c07-8036-2f8700972fff" valueTypeId="625c8ad6-41dd-46d1-bf2b-ead8f08874a1"/>
+    <managerType typeId="5579a9a5-52a4-4e7e-b981-9b4f575bc3c8" valueTypeId="9b4d6518-9638-4e5d-aff1-cee29c1b1c77"/>
+    <recordSetType typeId="660acb5b-4431-4ad3-9ac9-d4c066153f2a" valueTypeId="8f9edd13-12e8-4553-97e3-2ffa27b3dd55"/>
+    <recordKeyType typeId="e1a6b1ec-12bb-419c-865a-1377382c7f43" valueTypeId="dd9cf13b-3e7d-469a-a438-3a16ab282533"/>
+    <recordType typeId="744065fa-0e0a-445b-baa6-0bc267aa8530" valueTypeId="66eea5b0-86ad-4db2-9a87-9a02598592c0"/>
+    <recordManagerType typeId="6cb8c9ca-be3e-43f3-93e5-de920c0f5580" valueTypeId="363d9998-1f0c-4901-aa71-624210bcfc15"/>
+  </producedTypes>
+  <name>asur_СостояниеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>* Состояние задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="55757090-c9bf-4883-af8a-91e6e0e784d2">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.asur_СостоянияЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d0e871fb-8969-4ae4-84dd-2b0041e54b12">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_СписокЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

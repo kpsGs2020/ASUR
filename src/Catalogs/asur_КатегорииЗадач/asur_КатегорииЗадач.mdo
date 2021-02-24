@@ -33,7 +33,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.asur_КатегорииЗадач.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="3d624ee6-0ae8-4604-a05b-3b4c1705af3b">
     <name>ОбъектМетаданных</name>
     <synonym>
@@ -67,15 +66,50 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9edd17ac-ba0b-4957-929a-7477f1c22e20">
+    <name>СимволРазделения_ПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символ разделения по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="beb50f84-41f6-485a-8af9-68e9faecb965">
+    <name>ЗначениеИзКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение из категории</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f7208dfc-bb20-4be5-9a1d-af6f13f46dc2">
     <producedTypes>
       <objectType typeId="f0f24432-b2e7-47cb-8371-f22ebb948c88" valueTypeId="8a0c90f5-5f6b-4e32-808f-d474dde73981"/>
       <rowType typeId="c6c1ab79-cf50-4faa-937a-440b7207c60f" valueTypeId="c6817d55-418f-4f47-ad2a-172137c61c71"/>
     </producedTypes>
-    <name>СтруктураХранениеФайлов</name>
+    <name>СтруктураФормированияКодаРазработчику</name>
     <synonym>
       <key>ru</key>
-      <value>Структура хранение файлов</value>
+      <value>Структура формирования кода разработчику</value>
     </synonym>
     <attributes uuid="f939352b-bde2-478f-8a92-afb23eaac71f">
       <name>ЕстьПрефикс</name>
@@ -148,7 +182,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>1</length>
+          <length>3</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

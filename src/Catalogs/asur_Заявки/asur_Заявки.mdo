@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40a3bf5c-cd48-421a-80f9-0981fd327a98">
+  <producedTypes>
+    <objectType typeId="90a7b5dc-caf8-4eaa-a18e-cb5203067369" valueTypeId="e3aad6fa-6b56-4218-a6ff-b7bc9b3450d7"/>
+    <refType typeId="c50aa6f2-4257-48e9-b976-51a3fdd392be" valueTypeId="4a86a630-9cc4-4586-89aa-f444c286b60b"/>
+    <selectionType typeId="02577860-adc5-488b-8e5b-ea41df50edae" valueTypeId="243f2f84-bbf8-4f78-bad4-cc525286a525"/>
+    <listType typeId="d75079ac-5c3b-43cd-b8ac-f48655779d6d" valueTypeId="19d6c421-ce7f-4d40-b91e-302699d528fa"/>
+    <managerType typeId="b7e94d69-3137-4832-8ca7-9bcb1b48553b" valueTypeId="89d1d603-1a48-4eaa-b6d3-3c1427412e28"/>
+  </producedTypes>
+  <name>asur_Заявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_Заявки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.asur_Заявки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="36e0358b-9b48-4476-bef5-0f8f0e4c37ce">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_Год</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f096f39-cec5-4def-8f0a-5c995b7b23ef">
+    <name>ВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_ВерсииКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>0:563aa1a0-4fad-42ef-9a4b-fcaae8a92f3d</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>0:563aa1a0-4fad-42ef-9a4b-fcaae8a92f3d</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f38c0f4-92dc-426d-b92e-87e34ebeace2">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f0972a5-cb87-4d2d-a0cc-7b4dcbd4e650">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5416037-cc1e-4026-b077-566ee85912a9">
+    <name>КатегорияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_КатегорииЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8633df5a-d5e7-4f43-bf0f-8dc84605ff45">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="933415c3-1901-44fe-be66-f88213d315f3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f509b791-2d3d-4e4b-8231-47a98d872ec6">
+    <name>Отдел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_ОтделыПодразделений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e993c514-0569-437e-9f19-ed0eb0a8be25">
+    <name>ПутьКГруппеПапок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к группе папок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df8a258e-d77f-4f5d-9eb0-d835d23a8b32">
+    <name>ПутьРазмещенияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь размещения файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc1056ed-ad8a-4b8c-9329-40f1a3963e6f">
+    <name>МестоВыполненияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место выполнения задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_КонфигурацииОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2c44b99f-c119-4940-9d41-88c443cb10d7">
+    <producedTypes>
+      <objectType typeId="70d0d3e8-51c6-488b-9703-d4c87e798aae" valueTypeId="2a5394cb-e667-4129-8ade-5b328528cc33"/>
+      <rowType typeId="c56bd883-01c5-4eb8-b4f2-133a14f3164a" valueTypeId="141ce712-b5cb-43a0-a70c-d90608d2d48c"/>
+    </producedTypes>
+    <name>РегистрацияСобытийХод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация событий ход</value>
+    </synonym>
+    <comment>Для воспроизведения ситуации</comment>
+    <attributes uuid="911f18fb-59d9-40dd-b2ac-53bce1d1fa84">
+      <name>ОписаниеШага</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание шага</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="241cb463-eba9-474f-8254-8679016c90ae">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf97cc11-6da6-43be-9ffa-5013254b8e90">
+      <name>НавигационнаяСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Навигационная ссылка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>350</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

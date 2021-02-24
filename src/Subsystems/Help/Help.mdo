@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f053c34-b1c6-4597-9225-6089d84f26e0">
+  <name>Help</name>
+  <synonym>
+    <key>ru</key>
+    <value>Help</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.asur_Заявки</content>
+</mdclass:Subsystem>

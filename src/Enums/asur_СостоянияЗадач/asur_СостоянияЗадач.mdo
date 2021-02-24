@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34e9cd80-cdcd-4e16-abd2-fe2841d4d20d">
+  <producedTypes>
+    <refType typeId="fd55a4ad-05ea-4f35-86b2-c92a5278e7b5" valueTypeId="a0864515-1a24-4928-8fe7-5382cbad70c1"/>
+    <listType typeId="6c547ec6-9884-487b-bde2-68d140e3cc0c" valueTypeId="9ac7b9c7-845f-4d06-81f8-ee1717b27186"/>
+    <managerType typeId="bacc9114-7c2d-4eed-a516-12daf7aca393" valueTypeId="934dfba1-b3dc-4826-815a-e296c4eb0131"/>
+  </producedTypes>
+  <name>asur_СостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Состояния задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7dbe5b9a-ce77-45f3-a979-bb0979b0308b">
+    <name>Рассмотрена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cab8283-8218-44fc-8c12-0de7eace9eea">
+    <name>ВПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>В план</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d387c4fb-494d-4e1f-85c1-256b19d5048e">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="403769b0-512d-4b2d-a37b-ac8938668d5c">
+    <name>Отложена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e4c5358-7c8b-4ff2-b66a-be0219ba0d2b">
+    <name>Решена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

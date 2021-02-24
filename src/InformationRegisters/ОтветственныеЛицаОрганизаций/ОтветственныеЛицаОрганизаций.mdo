@@ -12,7 +12,6 @@
   <name>ОтветственныеЛицаОрганизаций</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:InformationRegisterExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
@@ -21,22 +20,26 @@
     <name>Пользователь</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
     </extension>
-    <type>
-      <types>CatalogRef.Пользователи</types>
-    </type>
+    <type/>
   </resources>
   <dimensions uuid="3b69f6ca-3281-4bcc-9599-4f2066661d68" extendedConfigurationObject="a4891d26-b8ba-47ab-befd-2c340e3b8f30">
     <name>Организация</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
     </extension>
-    <type>
-      <types>CatalogRef.Организации</types>
-    </type>
+    <type/>
   </dimensions>
 </mdclass:InformationRegister>

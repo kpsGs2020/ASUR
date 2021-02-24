@@ -12,5 +12,6 @@
     <picture>CommonPicture.asur_Подсистема</picture>
   </picture>
   <content>Catalog.asur_СписокЗадач</content>
+  <content>InformationRegister.asur_ОбщиеНастройки</content>
   <subsystems>Задачи</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d976c0d9-047e-4f89-970f-8a213c88e35f">
+  <producedTypes>
+    <selectionType typeId="34af669c-924b-4a98-9a74-91c5cf86e6e6" valueTypeId="cd9ca187-5868-490f-b581-a128d8ee2201"/>
+    <listType typeId="9bc0488d-0f11-41f5-b60b-c25ee014633f" valueTypeId="1ea3b9aa-82a7-41de-bb0f-10223e2e2d79"/>
+    <managerType typeId="b02a6c8f-30df-4e3d-95fc-27e3e05c4d8b" valueTypeId="86595b96-3e90-45e4-87a1-53a0cbc14ed8"/>
+    <recordSetType typeId="9ec13f26-6a8b-4c59-940b-25530f76d244" valueTypeId="0f12804a-78e7-4d12-8cb7-957a129eeb72"/>
+    <recordKeyType typeId="4039de81-0004-4fbb-854e-c07ffba60720" valueTypeId="2a422b59-ad89-45cd-a8cb-bc6cc13b65e9"/>
+    <recordType typeId="a077fcb5-b96d-4df7-9be5-3b83bfdbcac4" valueTypeId="06b0e000-5e46-44b6-8fc7-6f6f99f1b683"/>
+    <recordManagerType typeId="98ded0ad-882d-445f-83b5-d9b2a38f24ba" valueTypeId="a420e615-7116-4fed-aa33-2e27088bd247"/>
+  </producedTypes>
+  <name>asur_ОбщиеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="da8d18a8-7b73-4338-ab9a-8b6869329494">
+    <name>СимволРазделения_ПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символ разделения по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="649277f3-47b0-426f-a8f5-d7bbdefd278c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

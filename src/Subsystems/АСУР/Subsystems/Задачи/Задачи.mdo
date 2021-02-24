@@ -14,5 +14,9 @@
   <content>Catalog.asur_СписокЗадач</content>
   <content>Catalog.asur_Год</content>
   <content>Catalog.asur_КатегорииЗадач</content>
+  <content>InformationRegister.asur_ТекущаяВерсияКонфигурации</content>
+  <content>Catalog.asur_ВерсииКонфигурации</content>
+  <content>InformationRegister.asur_СостояниеЗадачи</content>
+  <content>Enum.asur_СостоянияЗадач</content>
   <parentSubsystem>Subsystem.АСУР</parentSubsystem>
 </mdclass:Subsystem>

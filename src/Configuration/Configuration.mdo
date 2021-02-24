@@ -10,6 +10,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
@@ -42,23 +43,38 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.АСУР</subsystems>
+  <subsystems>Subsystem.ПроизвольнаяНумерацияОбъектов</subsystems>
+  <subsystems>Subsystem.Help</subsystems>
   <commonPictures>CommonPicture.asur_Подсистема</commonPictures>
   <roles>Role.asur_Администратор</roles>
+  <commonModules>CommonModule.asur_ПолучениеДанных</commonModules>
+  <commonModules>CommonModule.asur_ИнтерфейсныеМеханизмы</commonModules>
+  <commonModules>CommonModule.asur_Сервер</commonModules>
+  <commonModules>CommonModule.asur_ПолучениеДанных_ПовтИсп</commonModules>
+  <commonCommands>CommonCommand.asur_НастроитьНумерациюОбъекта</commonCommands>
+  <commonCommands>CommonCommand.asur_ЗаполнитьНаФормеДанныеНумерации</commonCommands>
   <commonForms>CommonForm.asur_Форма</commonForms>
+  <catalogs>Catalog.asur_ВерсииКонфигурации</catalogs>
+  <catalogs>Catalog.asur_Год</catalogs>
+  <catalogs>Catalog.asur_Заявки</catalogs>
+  <catalogs>Catalog.asur_КатегорииЗадач</catalogs>
   <catalogs>Catalog.asur_КонфигурацииОрганизации</catalogs>
   <catalogs>Catalog.asur_ОтделыПодразделений</catalogs>
   <catalogs>Catalog.asur_СписокЗадач</catalogs>
   <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
-  <catalogs>Catalog.asur_Год</catalogs>
-  <catalogs>Catalog.asur_КатегорииЗадач</catalogs>
-  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
-  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <enums>Enum.asur_КатегорииПроектов</enums>
+  <enums>Enum.asur_СостоянияЗадач</enums>
   <informationRegisters>InformationRegister.СведенияОПользователяхДокументооборот</informationRegisters>
   <informationRegisters>InformationRegister.ОтветственныеЛицаОрганизаций</informationRegisters>
   <informationRegisters>InformationRegister.asur_ПрефиксыОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.asur_ОбщиеНастройки</informationRegisters>
+  <informationRegisters>InformationRegister.asur_ТекущаяВерсияКонфигурации</informationRegisters>
+  <informationRegisters>InformationRegister.asur_СостояниеЗадачи</informationRegisters>
 </mdclass:Configuration>

@@ -12,7 +12,6 @@
   <name>СведенияОПользователяхДокументооборот</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:InformationRegisterExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
@@ -20,33 +19,39 @@
     <name>Подразделение</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
     </extension>
-    <type>
-      <types>CatalogRef.СтруктураПредприятия</types>
-    </type>
+    <type/>
   </resources>
   <resources uuid="d6f6e8b8-ffdb-4389-bdfd-edb14e7a3f83" extendedConfigurationObject="2fcc66e9-5dd3-4c26-b574-463268d40b3c">
     <name>ГрафикРаботы</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ГрафикиРаботы</type>
+        </types>
+      </typeExtension>
     </extension>
-    <type>
-      <types>CatalogRef.ГрафикиРаботы</types>
-    </type>
+    <type/>
   </resources>
   <dimensions uuid="542799b5-a22d-4ffa-8871-23e971c46364" extendedConfigurationObject="3e97be3a-f2f3-49fc-8b18-cd4455c678ec">
     <name>Пользователь</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
     </extension>
-    <type>
-      <types>CatalogRef.Пользователи</types>
-    </type>
+    <type/>
   </dimensions>
 </mdclass:InformationRegister>

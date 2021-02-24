@@ -21,7 +21,7 @@
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>5</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -86,7 +86,7 @@
       <value>Заказчик</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -159,27 +159,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="04d14277-f3e0-468b-86be-80ef0b5c7b80">
-    <name>СтрокаВКодДляРазработчика</name>
-    <synonym>
-      <key>ru</key>
-      <value>Строка в код для разработчика</value>
-    </synonym>
-    <comment>Строка для вставки в код разработчика</comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="563aa1a0-4fad-42ef-9a4b-fcaae8a92f3d">
     <name>МестоВыполненияЗадачи</name>
     <synonym>
@@ -211,16 +190,54 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9b6572bd-b8e4-4293-b4af-946593598bae">
-    <name>ПутьКПапкеФайлов</name>
+  <attributes uuid="babd335e-ccf6-4908-8b17-7c54ae73ee8d">
+    <name>КатегорияЗадачи</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к папке файлов</value>
+      <value>Категория задачи</value>
     </synonym>
+    <type>
+      <types>CatalogRef.asur_КатегорииЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="380b28d6-164d-4dea-a497-9abfc6f07ec5">
+    <name>ВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_ВерсииКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.asur_СписокЗадач.Attribute.МестоВыполненияЗадачи</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>Catalog.asur_СписокЗадач.Attribute.МестоВыполненияЗадачи</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04d14277-f3e0-468b-86be-80ef0b5c7b80">
+    <name>СтрокаВКодДляРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка в код для разработчика</value>
+    </synonym>
+    <comment>Строка для вставки в код разработчика</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -231,14 +248,54 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="babd335e-ccf6-4908-8b17-7c54ae73ee8d">
-    <name>КатегоряЗадачи</name>
+  <attributes uuid="b6f0ea38-766f-4fb7-b2c3-d7ab224e9a5e">
+    <name>ПутьКГруппеПапок</name>
     <synonym>
       <key>ru</key>
-      <value>Категоря задачи</value>
+      <value>Путь к группе папок</value>
     </synonym>
     <type>
-      <types>CatalogRef.asur_КатегорииЗадач</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b6572bd-b8e4-4293-b4af-946593598bae">
+    <name>ПутьРазмещенияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь размещения файлов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55527b0f-650f-4eb1-a732-6c916162d11d">
+    <name>ОснованиеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание задачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_Заявки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

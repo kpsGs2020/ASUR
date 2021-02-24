@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2236438-dceb-4b85-a56d-f29306c975f9">
+  <name>asur_ИнтерфейсныеМеханизмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Asur интерфейсные механизмы</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

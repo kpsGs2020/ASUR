@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a185c9ee-c3a6-44b2-82cc-8114f8bd40e5">
+  <producedTypes>
+    <selectionType typeId="5634f849-382b-4837-b6a8-c10bc6c768d8" valueTypeId="4fb623f9-9361-4763-b252-a12899031bd6"/>
+    <listType typeId="095775d0-2f7b-4e9d-b246-f4764671b0ce" valueTypeId="18a73c01-caf3-43ab-a4fa-ee70682b471d"/>
+    <managerType typeId="b3d3abcb-5c79-47b9-a0ed-9b9ea1826531" valueTypeId="ccc44522-0979-4625-a9dd-88bf5184155d"/>
+    <recordSetType typeId="c92e5c53-f4e3-456c-a5a9-647a450177b5" valueTypeId="7d631001-e42b-491f-8ac9-b589ec31b0c0"/>
+    <recordKeyType typeId="9325a3be-ccf3-489b-850f-fae5750f3efb" valueTypeId="80774bf2-1e19-4345-82e3-c1fdeed9da00"/>
+    <recordType typeId="0e2a1456-1d09-4b6f-b642-0d04d804f908" valueTypeId="518439de-7779-48ec-9c27-432679ca6f4d"/>
+    <recordManagerType typeId="8c88a633-1a69-4bac-a0e4-cec0014ad33a" valueTypeId="bf8e83de-4ab8-4322-b1d5-34c3d32f3a4f"/>
+  </producedTypes>
+  <name>asur_ТекущаяВерсияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Текущая версия конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="44e0147c-5192-45a1-9105-6ab82739acb8">
+    <name>ТекущаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_ВерсииКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.asur_ТекущаяВерсияКонфигурации.Dimension.Конфигурация</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="af041e18-8969-43c2-99f6-8cd06b67e042">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8e24212d-9836-47d3-aaad-f777d57e7cd4">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.asur_КонфигурацииОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

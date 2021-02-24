@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42ef493b-e49f-44db-897f-75e752a169ca">
+  <producedTypes>
+    <objectType typeId="d31bf33a-9d50-4452-80d3-be3e597a16cc" valueTypeId="58377c24-a225-4424-a319-2e3936044ed7"/>
+    <refType typeId="5a498202-c2f8-4b18-abb6-cc8ebf566187" valueTypeId="e0ff08cb-c129-4037-9a8f-3ef5655fdb5f"/>
+    <selectionType typeId="fb316a59-e253-4a1a-9aab-17d99af585b4" valueTypeId="453a5435-5e4f-449f-8bed-b1f30b27136a"/>
+    <listType typeId="497b50d8-036a-4ae3-9a1f-bb54777cd8f6" valueTypeId="a466d7e8-a093-47a1-97d2-cfb67787b4cf"/>
+    <managerType typeId="713133d0-4d14-403b-8cf3-0e2986084cf4" valueTypeId="4aed139c-7ecc-4e4b-a1cc-a5730e8ce100"/>
+  </producedTypes>
+  <name>asur_ВерсииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>*Версии конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.asur_ВерсииКонфигурации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.asur_КонфигурацииОрганизации</owners>
+  <codeLength>10</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
